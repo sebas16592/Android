@@ -13,4 +13,12 @@
 
 
     <string name="toolbar_tittle_creataccount">Create Account</string>
+    <string name="username_card">Sebastian Hernandez</string>
+    <string name="firsword_card">Hace</string>
+    <string name="timecard_card">4 días</string>
+    <string name="likenumbercard_card">10 Me Gusta</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Me</string>
+
 </resources>
