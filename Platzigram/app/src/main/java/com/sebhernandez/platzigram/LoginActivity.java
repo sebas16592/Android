@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.sebhernandez.platzigram.view.ContainerActivity;
 import com.sebhernandez.platzigram.view.CreateAccountActivity;
@@ -29,15 +28,15 @@ public class LoginActivity extends AppCompatActivity {
         EditText password = (EditText) findViewById(R.id.password);
         String user=username.getText().toString();
         String pass=password.getText().toString();
-        if (user.equals("Sebas") && pass.equals("123")){
+        //if (user.equals("Sebas") && pass.equals("123")){
             Intent intent = new Intent(this, ContainerActivity.class);
             startActivity(intent);
-        }else{
+        /*}else{
             Toast toast1 =
                     Toast.makeText(getApplicationContext(),
                             "Debe ingresar el usuario correcto", Toast.LENGTH_SHORT);
 
             toast1.show();
-        }
+        }*/
     }
 }
