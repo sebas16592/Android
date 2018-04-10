@@ -20,6 +20,10 @@
     <dimen name="height_divider">1dp</dimen>
     <dimen name="paddingtop_tittleimagedetail">20dp</dimen>
     <dimen name="padding_horizontal_textcontentdetail">35dp</dimen>
+    <dimen name="textsize_username_profile">30dp</dimen>
+    <dimen name="dimen_circleimageprofile">160dp</dimen>
+    <dimen name="margintop_circleimageprofile">30dp</dimen>
+    <dimen name="elevation_circleimageprofile">10dp</dimen>
 
 
 </resources>
