@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.sebhernandez.platzigram.view.PictureDetailActivity">
+    tools:context="com.sebhernandez.platzigram.view.PictureDetailActivity"
+
+    >
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appBar"
@@ -19,6 +21,7 @@
             android:layout_height="match_parent"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:contentScrim="@color/colorPrimary"
+            android:fitsSystemWindows="true"
             >
             <ImageView
                 android:id="@+id/imageHeader"
@@ -27,6 +30,10 @@
                 android:scaleType="centerCrop"
                 android:background="@drawable/image"
                 app:layout_collapseMode="parallax"
+                android:fitsSystemWindows="true"
+                android:transitionName="@string/transitionname_picture"
+
+
 
                 />
             <android.support.v7.widget.Toolbar

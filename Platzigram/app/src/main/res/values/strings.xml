@@ -27,4 +27,7 @@
     <string name="secondword_detail">Me Gusta</string>
     <string name="titleimagedetail">\"Todo copas en la playa\"</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida nec lectus eu tempor. Ut placerat cursus cursus. Aliquam fringilla nunc bibendum odio semper, sed ultrices eros iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut diam mi. Donec interdum rutrum erat at bibendum. Vivamus a semper tortor, vel euismod libero. Aenean et est ut metus ultricies rhoncus. Vivamus maximus sollicitudin nunc, et fermentum risus tincidunt vitae. Praesent id lobortis ipsum. Pellentesque quis pretium lorem. Ut varius venenatis ornare.</string>
+    <string name="transitionname_picture">transitionnamepicture</string>
+    <string name="search">Buscar</string>
+    <string name="firstword_card">Hace</string>
 </resources>

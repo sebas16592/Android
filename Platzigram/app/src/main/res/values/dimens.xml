@@ -24,6 +24,15 @@
     <dimen name="dimen_circleimageprofile">160dp</dimen>
     <dimen name="margintop_circleimageprofile">30dp</dimen>
     <dimen name="elevation_circleimageprofile">10dp</dimen>
+    <dimen name="limitY_circleimage">-206dp</dimen>
+    <dimen name="margintoptoolbar_circleimageprofile">-15dp</dimen>
+    <dimen name="width_circleimagetoolbar">40dp</dimen>
+    <dimen name="textsize_usernametoolbarprofile">18sp</dimen>
+    <dimen name="marginleft_usernametoolbarprofile">72dp</dimen>
+    <dimen name="margintop_usernametoolbarprofile">-100dp</dimen>
+    <dimen name="limitY_usernametoolbarprofile">-250dp</dimen>
+    <dimen name="margintoptargety_usernametoolbarprofile">-5dp</dimen>
+    <dimen name="timecard_marginleft_card">5dp</dimen>
 
 
 </resources>

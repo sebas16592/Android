@@ -1,9 +1,14 @@
 package com.sebhernandez.platzigram.view;
 
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.transition.Explode;
+import android.transition.Fade;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,6 +24,14 @@ public class PictureDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_picture_detail);
         showToolbar("",true);
+
+        if (Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP){
+            getWindow().setStatusBarColor(Color.TRANSPARENT);
+            getWindow().setEnterTransition(new Fade());
+        }else{
+
+        }
+
         CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsingToolbar);
 
         Picture picture = (Picture) getIntent().getExtras().getSerializable("photo");
@@ -28,6 +41,9 @@ public class PictureDetailActivity extends AppCompatActivity {
         user.setText(picture.getUsername());
         ImageView imagen = (ImageView) findViewById(R.id.imageHeader);
         Picasso.with(this).load(picture.getPicture()).into(imagen);
+
+
+
     }
 
     public void showToolbar(String tittle,boolean upButton){
